@@ -13,18 +13,19 @@ public class Ejercicio24 {
         do {
             nota = sc.nextInt();
             System.out.println("Escribe la siguiente nota:");
-            if ( nota != -1){ // Si la nota es distinta a -1 ejecuta el bucle
-                totalNota = totalNota+nota;
+            if (nota != -1) { // Si la nota es distinta a -1 ejecuta el bucle
+                totalNota = totalNota + nota;
                 contador++;
-            } if (nota == 10){
+            }
+            if (nota == 10) {
                 hay10 = true;
             }
         } while (nota != -1); //Repite hasta que sea -1
 
-        double media = totalNota/contador;
+        double media = totalNota / contador;
 
         System.out.println("Tu media es: " + media);
-        System.out.println("Hay algun 10? " + hay10 );
+        System.out.println("Hay algun 10? " + hay10);
 
 
     }
