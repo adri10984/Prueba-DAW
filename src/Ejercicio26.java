@@ -10,7 +10,7 @@ public class Ejercicio26 {
         int num = sc.nextInt();
         for (int i = 1; i <= 10; i++) { //hago que empiece desde 1 i=1 y acabe en 10
             if (num >= 0){
-                resultado = num * i;
+                resultado = num * i; // como i es una variable que se incrementa la uso para multiplicar el numero
                 System.out.println(num + "x" + (i) + "=" + resultado);
 
             }
